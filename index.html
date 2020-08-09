@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Center Manager Js</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'/>
+</head>
+
+<body>
+    
+    <h1><i class="fas fa-user-clock"></i> Call Center Manager</h1>
+    <div class="container">
+        <button id="btn"><i class="fas fa-phone-volume"></i> Start Call</button>
+    </div>
+    <div id="listcalls"></div>
+    <div id="footer">
+        <div class="f-item"><i class="fas fa-headset"></i>&nbsp;Managed Calls :&nbsp;<span id="managed">0</span></div>
+        <div class="f-item"><i class="far fa-clock"></i>&nbsp;Avarange Calls :&nbsp;<span id="avarangecall">0</span></div>
+        <div class="f-item"><i class="far fa-clock"></i>&nbsp;Duration Call :&nbsp;<span id="durationcall">0</span></div>
+        <div class="f-item">
+            <button id="btn_load"><i class="fas fa-database"></i>&nbsp;Load Local Data</button>
+            <button id="btn_clear"><i class="fas fa-trash-alt"></i>&nbsp;Clear Local Data</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
