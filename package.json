@@ -1,0 +1,23 @@
+{
+  "name": "call-center-manager",
+  "version": "1.0.0",
+  "description": "call center manager",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellopagano/call-center-manager-js.git"
+  },
+  "keywords": [],
+  "author": "Marcello Pagano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcellopagano/call-center-manager-js/issues"
+  },
+  "homepage": "https://github.com/marcellopagano/call-center-manager-js#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    'use strict';
+
     let call = false;
     let totalCalls = 1;
     let idInterval = null;
@@ -101,5 +101,4 @@ document.addEventListener('DOMContentLoaded', () => {
             listCalls.firstChild.remove();
         }
     }
-
 });
